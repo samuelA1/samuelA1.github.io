@@ -349,6 +349,11 @@ MEDIA QUERY
      background-position: top right;
    }
 
+   .overlay{
+     font-size: 13px;
+     padding: 0;
+   }
+
 
 }
 
