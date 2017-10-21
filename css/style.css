@@ -6,7 +6,7 @@ body {
 }
 
 
-.btn-default > a {
+.btn-default {
   text-align: center;
   text-decoration: none;
   position: absolute;
@@ -21,12 +21,12 @@ body {
   transition: background-color 2s, color 1s;
 }
 
-.btn-default > a:hover {
+.btn-default:hover {
   background-color: #D1B389;
   color: white;
 }
 
-.btn-outline-secondary > a {
+.btn-outline-secondary{
   color: white;
   text-decoration: none;
   font-size: 1em;
@@ -81,7 +81,6 @@ TYPOGRAPHY
   top: 4%;
   padding-top: 95px;
   color: #D1B389;
-  -webkit-animation-duration: 8s;
 }
 
 /***************************************************************
@@ -220,7 +219,7 @@ SKILLS
 }
 
 .hey {
-  padding-right: 58px;
+  width: 70%;
 }
 
 /***************************************************************
